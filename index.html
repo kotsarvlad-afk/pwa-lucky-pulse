@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="/manifest.json">
+  <title>LuckyPulse | MINES Demo</title>
+</head>
+<body>
+  <h1>🎯 LuckyPulse</h1>
+  <p>Играй в демо MINES и получай бонусы!</p>
+  <a href="https://t.me/LuckyPulseBot" target="_blank">Открыть в Telegram-боте</a>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+  </script>
+</body>
+</html>
